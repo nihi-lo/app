@@ -1,0 +1,12 @@
+{
+  "name": "マークダウンエディター",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "app",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "extensions": ["mhutchie.git-graph", "seatonjiang.gitmoji-vscode"],
+      "settings": {}
+    }
+  }
+}
