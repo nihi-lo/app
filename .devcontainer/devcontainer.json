@@ -5,8 +5,31 @@
   "workspaceFolder": "/app",
   "customizations": {
     "vscode": {
-      "extensions": ["mhutchie.git-graph", "seatonjiang.gitmoji-vscode"],
-      "settings": {}
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "mhutchie.git-graph",
+        "seatonjiang.gitmoji-vscode",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss"
+      ],
+      "settings": {
+        "editor.codeActionsOnSave": {
+          "source.addMissingImports": "explicit",
+          "source.fixAll.eslint": "explicit"
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.quickSuggestions": {
+          "strings": "on"
+        },
+        "files.associations": {
+          "*.css": "tailwindcss"
+        },
+        "files.eol": "auto",
+        "typescript.preferences.importModuleSpecifier": "non-relative",
+        "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+        "typescript.updateImportsOnFileMove.enabled": "always"
+      }
     }
   }
 }

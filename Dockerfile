@@ -1,4 +1,4 @@
-FROM node:20 AS base
+FROM node:22 AS base
 ENV TZ=Asia/Tokyo
 WORKDIR /app
 COPY package.json package-lock.json ./
