@@ -45,7 +45,8 @@
         "typescript.preferences.importModuleSpecifier": "non-relative",
         "typescript.suggest.paths": false,
         "typescript.tsserver.experimental.enableProjectDiagnostics": true,
-        "typescript.updateImportsOnFileMove.enabled": "always"
+        "typescript.updateImportsOnFileMove.enabled": "always",
+        "javascript.updateImportsOnFileMove.enabled": "always"
       }
     }
   }
