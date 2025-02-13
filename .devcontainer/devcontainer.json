@@ -9,6 +9,7 @@
         "dbaeumer.vscode-eslint",
         "mhutchie.git-graph",
         "seatonjiang.gitmoji-vscode",
+        "christian-kohler.path-intellisense",
         "esbenp.prettier-vscode",
         "bradlc.vscode-tailwindcss"
       ],
@@ -19,6 +20,7 @@
         },
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
+        "editor.linkedEditing": true,
         "editor.quickSuggestions": {
           "strings": "on"
         },
@@ -26,7 +28,12 @@
           "*.css": "tailwindcss"
         },
         "files.eol": "auto",
+        "git-graph.repository.fetchAndPrune": true,
+        "path-intellisense.mappings": {
+          "/": "${workspaceFolder}/public"
+        },
         "typescript.preferences.importModuleSpecifier": "non-relative",
+        "typescript.suggest.paths": false,
         "typescript.tsserver.experimental.enableProjectDiagnostics": true,
         "typescript.updateImportsOnFileMove.enabled": "always"
       }
