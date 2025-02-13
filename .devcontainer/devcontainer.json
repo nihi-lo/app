@@ -14,6 +14,7 @@
         "bradlc.vscode-tailwindcss"
       ],
       "settings": {
+        // editor
         "editor.codeActionsOnSave": {
           "source.addMissingImports": "explicit",
           "source.fixAll.eslint": "explicit"
@@ -24,14 +25,22 @@
         "editor.quickSuggestions": {
           "strings": "on"
         },
+
+        // files
         "files.associations": {
           "*.css": "tailwindcss"
         },
         "files.eol": "auto",
+
+        // git-graph
         "git-graph.repository.fetchAndPrune": true,
+
+        // path-intellisense
         "path-intellisense.mappings": {
           "/": "${workspaceFolder}/public"
         },
+
+        // typescript
         "typescript.preferences.importModuleSpecifier": "non-relative",
         "typescript.suggest.paths": false,
         "typescript.tsserver.experimental.enableProjectDiagnostics": true,
